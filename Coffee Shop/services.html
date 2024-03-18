@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with 5 Menu Tabs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .active {
+            background-color: #666;
+        }
+        .content {
+            display: none;
+            padding: 20px;
+        }
+        .content.active {
+            display: block;
+        }
+        .imbwa img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            background-size: cover;
+        }
+        .back img:hover {
+            background-color: #A7A2A2;
+            background-size: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a class="active" href="homepage.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="mybook.html">Mybook</a>
+</div>
+
+<div class="imbwa">
+    <h2 style="text-align: center;">Our Services</h2>
+    <img src="img/services-bg.png""> <!-- Replace 'services_image.jpg' with your image path -->
+    
+</div>
+<div class="back">
+        <p>We Deliver</p>
+        <img src="img/icon1.png"  style="float: left; padding: 10%;" >
+        <p>We Prepare Food Of Your Choice</p>
+                        
+        <img src="img/icon2.png" style="float: left;padding: 10%;">
+        <p>We Teach how to make coffee</p>
+         
+        <img src="img/icon3.png" style="float: left;  padding: 10%;">
+         
+</div>
+
+<div >
+    <h2 style="padding-top: 30%;">Contact Us</h2>
+    <p>0786789813</p>
+</div>
+
+</body>
+</html>

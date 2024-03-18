@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with 5 Menu Tabs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .active {
+            background-color: #666;
+        }
+        .content {
+            display: none;
+            padding: 20px;
+        }
+        .content.active {
+            display: block;
+        }
+        .content img {
+           
+        }
+        .img{
+
+             max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .img h2
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a class="active" href="homepage.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="mybook.html">Mybook</a>
+</div>
+
+
+
+<div id="about" class="img">
+    <h2>About Us</h2>
+    <img src="img/img-5.png" alt="About Us Image">
+    <img src="img/img-4.png" alt="About Us Image">
+    <p> We serve the best coffee and we serve other services related to food and prodcuts 
+        ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+
+<div id="services" class="content">
+    <h2>Services</h2>
+    <p>Our services include...</p>
+</div>
+
+<div id="gallery" class="content">
+    <h2>Gallery</h2>
+    <p>Our gallery...</p>
+</div>
+
+<div id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>Contact information...</p>
+</div>
+
+
+</body>
+</html>
